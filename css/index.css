@@ -1,0 +1,91 @@
+body {
+    font-family: "Futura-PT", sans-serif;        
+    color: #5b5b5b;
+}
+
+.head-bio, .contact {
+    font-family: 'Istok Web';    
+}
+h1, .icon-links {
+    font-family: "Futura-PT", sans-serif;    
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.head-bio, .skills {
+    font-style: italic;    
+}
+
+.jumbotron {
+    background-color: #f2b995;
+}
+
+.jumbotron, .icon-button, .transition, h4 {
+    text-align: center;
+}
+
+.project {
+    padding: 0;
+}
+
+header h1 {
+    color: white; 
+}
+
+.icon-button {
+    margin: 0 auto;
+    color: #1cb3a3;
+    letter-spacing: 2px;
+}
+
+.icon-button:hover {
+    color: #0e5a51;
+}
+
+#projects {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eceaea;
+}
+
+.material-icons {
+    font-size: 100px;
+}
+
+a {
+    color: #5b5b5b;
+}
+
+.card-img-box {
+    border-bottom: solid grey;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-img-top {
+    opacity: .7;
+    transition: all 0.5s;    
+}
+
+.card-img-top:hover {
+    opacity: 1;
+}
+
+#projects h4 {
+    color: #201f47;
+}
+
+.img-overlay-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  
