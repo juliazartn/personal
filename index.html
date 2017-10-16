@@ -43,11 +43,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                        <a class="nav-link" href="#about">Bio</a>
+                    </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Bio</a>
-                </li>
+               
             </ul>
         </div>
     </nav>
@@ -84,6 +85,16 @@
                         </a>
                     </div>
                     <div class="col-4">
+                            <a href="#about">
+                                <div class="icon-button">
+                                    <div>
+                                        <i class="material-icons">person</i>
+                                    </div>
+                                    About Me
+                                </div>
+                            </a>
+                        </div>
+                    <div class="col-4">
                         <a href="#projects">
                             <div class="icon-button">
                                 <div>
@@ -92,14 +103,6 @@
                                 Projects
                             </div>
                         </a>
-                    </div>
-                    <div class="col-4">
-                        <div class="icon-button">
-                            <div>
-                                <i class="material-icons">person</i>
-                            </div>
-                            About Me
-                        </div>
                     </div>
                 </div>
             </div>
@@ -114,12 +117,45 @@
         <div class="transition">
             <i class="material-icons">keyboard_arrow_down</i>
         </div>
+   <!-- ABOUT ME -->
+   <section id="about" class="section-box">
+        <div class="row">
+            <div class="left-square col-lg-6">
+                <h4>About Me</h4>
+                <hr>
 
+                <div class="about-images">
+                    <img src="https://www.washington.edu/brand/files/2014/09/W-Logo_Purple_Hex.png">
+
+                    <img src="https://www.washington.edu/accesscomputing/sites/all/themes/ac_adaptive/images/iSchool-logo.png">
+                    <img src="http://cdn.bleacherreport.net/images/team_logos/328x328/golden_state_warriors.png">
+                    <img src="https://pbs.twimg.com/profile_images/466738323688394752/T_oTHvc4.png">
+
+                </div>
+
+                <p class="long-bio">
+                     Originally from Cupertino, California, I am an undergraduate Junior attending the University of Washington, majoring
+                    in <a href="https://ischool.uw.edu/programs/informatics">Informatics</a> with an intended focus in Human Computer Interaction. In the past I have worked at a startup, a tech summer camp, and in sports as IT.</p>
+
+                <p>Whether it’s through the <a href="http://uwswe.com/">Society of Women Engineers</a> or the Filipino
+                    American Student Association, I love to be involved in the community which has allowed me to travel, perform, and make great connections. </p>
+
+                <p>Right now I am looking for a great company where I can utilize my technical skill set and continue to
+                    challenge myself.
+                </p>
+                </p>
+            </div>
+            <div class="right-square col-lg-6">
+                <img src="img/swe-conference.jpeg" alt="SWE Conference">
+                <div class="caption-top-right">SWE Conference Local San Jose 2017</div>
+            </div>
+        </div>
+    </section>
         <!-- PROJECTS -->
-        <section id="projects">
+        <section id="projects" class="section-box">
             <div class="container">
                 <h4>Projects</h4>
-
+                <hr>
                 <div class="row card-deck">
                     <div class="project col-md-6 col-lg-4 py-3">
                         <div class="card">
@@ -135,7 +171,7 @@
                                 <p>Group project using the Yelp API and Data Wrangling to answer questions about restaurant
                                     diversity in the U.S.</p>
                                 <p class="skills">Skills Used: R, Data Wrangling (dplyr), R Markdown, Basic Data Visualization (ggplot, poorly)</p>
-                                Addiional Links:
+                                Additional Links:
                                 <strong>
                                     <a href="https://github.com/yhejazi/info-201-git-R-done">GitHub</a>
                                 </strong>
@@ -186,12 +222,12 @@
 
         </section>
 
-        <!-- ABOUT ME -->
-        <section id="about">
-
-        </section>
+     
     </main>
-
+    <footer>
+        <p>Website made by Julia Zaratan 2017.</p>
+        <p class="footer-note">**In progress**</p>
+    </footer>
 </body>
 
 </html>

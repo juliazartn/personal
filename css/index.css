@@ -20,10 +20,12 @@ h1 {
 }
 
 .jumbotron {
-    background-color: #f2b995;
+    /* background-color: #f2b995; coral */
+    background-color: #e5cc8f; /* gold */
+    
 }
 
-.jumbotron, .icon-button, .transition, h4 {
+h4, .jumbotron, .icon-button, .transition{
     text-align: center;
 }
 
@@ -46,9 +48,9 @@ header h1 {
 }
 
 #projects {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #eceaea;
+    background-color: #f0e8e1;
+    margin: 0;    
+    padding: 20px;    
 }
 
 .material-icons {
@@ -74,9 +76,9 @@ a {
     opacity: 1;
 }
 
-#projects h4 {
-    color: #201f47;
-}
+/* .card-body {
+    background-color: rgb(250, 246, 227);
+} */
 
 .img-overlay-text {
     transition: .5s ease;
@@ -88,4 +90,49 @@ a {
     -ms-transform: translate(-50%, -50%)
   }
 
-  
+/* About Me */
+
+#about {
+    /* background-color: #a1bcc5; blue*/
+    background-color: #dddada;
+}
+
+.left-square {
+    padding: 40px 50px;
+    line-height: 2rem;
+}
+
+.left-square a {
+    color: rgb(7, 7, 112);
+}
+
+.right-square img {
+    width: 100%;
+}
+
+.caption-top-right {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    color: white;
+}
+
+.about-images {
+    text-align: center;
+}
+
+.about-images img {
+    margin: 10px;
+    height: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: grey;
+    margin: 0;
+    padding: 15px;
+}
+
+.footer-note {
+    font-style: italic;
+}
