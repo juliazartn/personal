@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Fifteen Tile Puzzle</title>
+
+	<link href="https://webster.cs.washington.edu/images/fifteen/fifteen.gif" type="image/gif" rel="shortcut icon" />
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+	<!-- link files -->
+	<link href="tiles.css" type="text/css" rel="stylesheet" />
+	<script src="tiles.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>
+				<section id="first">Tile</section> Puzzle</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col" id="instructions">
+					<h2>Instructions:</h2>
+					<p>
+						Move the tiles by sliding them into the empty spot. Tiles that can be moved will be highlighted when hovered over. Automatically
+						scramble the tiles by pressing 'Shuffle'. Try to un-scramble them by doing this repeatedly and creating the original
+						picture!
+					</p>
+				</div>
+				<div class="col puzzlesquare">
+					<p id="controls">
+						<button id="shufflebutton">Shuffle</button>
+					</p>
+
+					<div id="puzzlearea">
+						<!-- this area holds the actual fifteen puzzle piece add to it as you need to -->
+					</div>
+				</div>
+
+			</div>
+	</main>
+	<footer>
+		<p>Created by Julia Zaratan</p>
+	</footer>
+</body>
+
+</html>

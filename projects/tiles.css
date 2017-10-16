@@ -1,0 +1,116 @@
+/*
+Julia Zaratan
+
+CSS for tile puzzle page.
+*/
+
+
+body {
+	font-size: 14pt;
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	
+}
+
+header, #winMessage, #shufflebutton {
+	font-family: 'Lobster', cursive;	
+}
+header {
+	font-family: 'Lobster', cursive;
+	background-color: #273b70;
+	color: #f9b904;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.tile {
+	font-size: 20pt;
+	border: 5px solid rgba(0, 0, 0, .5);
+	width: 90px;
+	height: 90px;
+	background-image: url("background.jpg");
+	position: absolute;
+	cursor: default;
+	text-align: right;
+}
+
+.tile p {
+	margin: auto; 
+}
+
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+
+.highlight {
+	border-color: rgb(255, 251, 190);
+	color: rgb(255, 251, 190);
+	cursor: pointer;
+}
+
+#winMessage {
+	font-weight: bold;
+	color: green;
+	font-size: 32pt;
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 1000;
+}
+
+#instructions {
+	background-color:#2d999f;
+	padding: 30px;
+	color: white;	
+	line-height: 2rem;
+}
+.puzzlesquare {
+	padding: 10px;
+	text-align: center;
+	background-color: #f9b904;
+	width: 100%;
+}
+
+#first {
+	color: #ef900c;
+	display: inline;
+}
+
+footer {
+	padding: 20px;
+	background-color: grey;
+	color: rgb(59, 59, 59);
+}
+
+#shufflebutton {
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: grey;
+	border: none;
+}
+
+#shufflebutton:hover, #shufflebutton:focus {
+	background-color: rgb(78, 78, 78);
+}
+
+
+@media(min-width: 992px) {
+	.row {
+		display: flex;
+	}
+	
+	.col {
+		flex: 1;
+	}
+
+	.container {
+		min-width: 1140px;
+	}
+	
+}
