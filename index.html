@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Julia Zaratan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +49,28 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                
+            </ul>
+        </div>
+    </nav> -->
+
+    <button class="nav-button">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+        </button>
+    <nav>
+        <div class="navigation-bar">
+            <ul>
+                <li>
+                    <a class="nav-url" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="nav-url" href="#about">Bio</a>
+                </li>
+                <li>
+                    <a class="nav-url" href="#projects">Projects</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -85,15 +107,15 @@
                         </a>
                     </div>
                     <div class="col-4">
-                            <a href="#about">
-                                <div class="icon-button">
-                                    <div>
-                                        <i class="material-icons">person</i>
-                                    </div>
-                                    About Me
+                        <a href="#about">
+                            <div class="icon-button">
+                                <div>
+                                    <i class="material-icons">person</i>
                                 </div>
-                            </a>
-                        </div>
+                                About Me
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-4">
                         <a href="#projects">
                             <div class="icon-button">
@@ -117,39 +139,41 @@
         <div class="transition">
             <i class="material-icons">keyboard_arrow_down</i>
         </div>
-   <!-- ABOUT ME -->
-   <section id="about" class="section-box">
-        <div class="row">
-            <div class="left-square col-lg-6">
-                <h4>About Me</h4>
-                <hr>
+        <!-- ABOUT ME -->
+        <section id="about" class="section-box">
+            <div class="row">
+                <div class="left-square col-lg-6">
+                    <h4>About Me</h4>
+                    <hr>
 
-                <div class="about-images">
-                    <img src="https://www.washington.edu/brand/files/2014/09/W-Logo_Purple_Hex.png">
+                    <div class="about-images">
+                        <img src="https://www.washington.edu/brand/files/2014/09/W-Logo_Purple_Hex.png">
 
-                    <img src="https://www.washington.edu/accesscomputing/sites/all/themes/ac_adaptive/images/iSchool-logo.png">
-                    <img src="http://cdn.bleacherreport.net/images/team_logos/328x328/golden_state_warriors.png">
-                    <img src="https://pbs.twimg.com/profile_images/466738323688394752/T_oTHvc4.png">
+                        <img src="https://www.washington.edu/accesscomputing/sites/all/themes/ac_adaptive/images/iSchool-logo.png">
+                        <img src="http://cdn.bleacherreport.net/images/team_logos/328x328/golden_state_warriors.png">
+                        <img src="https://pbs.twimg.com/profile_images/466738323688394752/T_oTHvc4.png">
 
+                    </div>
+
+                    <p class="long-bio">
+                        Originally from Cupertino, California, I am an undergraduate Junior attending the University of Washington, majoring in
+                        <a href="https://ischool.uw.edu/programs/informatics">Informatics</a> with an intended focus in Human Computer Interaction. In the past I have worked at
+                        a startup, a tech summer camp, and in sports as IT.</p>
+
+                    <p>Whether it’s through the
+                        <a href="http://uwswe.com/">Society of Women Engineers</a> or the Filipino American Student Association, I love to be involved
+                        in the community which has allowed me to travel, perform, and make great connections. </p>
+
+                    <p>Right now I am looking for a great company where I can utilize my technical skill set and continue to
+                        challenge myself.
+                    </p>
+                    </p>
                 </div>
-
-                <p class="long-bio">
-                     Originally from Cupertino, California, I am an undergraduate Junior attending the University of Washington, majoring
-                    in <a href="https://ischool.uw.edu/programs/informatics">Informatics</a> with an intended focus in Human Computer Interaction. In the past I have worked at a startup, a tech summer camp, and in sports as IT.</p>
-
-                <p>Whether it’s through the <a href="http://uwswe.com/">Society of Women Engineers</a> or the Filipino
-                    American Student Association, I love to be involved in the community which has allowed me to travel, perform, and make great connections. </p>
-
-                <p>Right now I am looking for a great company where I can utilize my technical skill set and continue to
-                    challenge myself.
-                </p>
-                </p>
+                <div class="right-square col-lg-6">
+                    <img src="img/aboutme.png" alt="About Me Collage">
+                </div>
             </div>
-            <div class="right-square col-lg-6">
-                <img src="img/aboutme.png" alt="About Me Collage">
-            </div>
-        </div>
-    </section>
+        </section>
         <!-- PROJECTS -->
         <section id="projects" class="section-box">
             <div class="container">
@@ -221,12 +245,18 @@
 
         </section>
 
-     
+
     </main>
     <footer>
         <p>Website made by Julia Zaratan 2017.</p>
         <p class="footer-note">**In progress**</p>
     </footer>
+
+    <script>
+        document.querySelector(".nav-button").addEventListener("click", function () {
+            document.body.classList.toggle("drawer-open");
+        })
+    </script>
 </body>
 
 </html>

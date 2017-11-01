@@ -20,7 +20,6 @@ h1 {
 }
 
 .jumbotron {
-    /* background-color: #f2b995; coral */
     background-color: #e5cc8f; /* gold */
     
 }
@@ -76,10 +75,6 @@ a {
     opacity: 1;
 }
 
-/* .card-body {
-    background-color: rgb(250, 246, 227);
-} */
-
 .img-overlay-text {
     transition: .5s ease;
     opacity: 0;
@@ -93,7 +88,6 @@ a {
 /* About Me */
 
 #about {
-    /* background-color: #a1bcc5; blue*/
     background-color: #dddada;
 }
 
@@ -135,4 +129,60 @@ footer {
 
 .footer-note {
     font-style: italic;
+}
+
+/* Navbar */
+
+nav {
+    background-color: #034975;
+    width: 250px;
+    height: 100vh; /* viewport height */
+    transform: translateX(-250px);
+}
+
+nav li {
+    list-style-type: none;
+    border-bottom: 1px solid grey;  
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav a {
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 16px;
+    color: white;        
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+svg {
+    height: 2.5rem;
+    fill: currentColor;
+}
+
+.nav-button {
+    background-color: white;
+    border: none;
+}
+
+.nav-button, nav {
+    transition: transform 500ms;
+    z-index: 1;
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+
+.drawer-open .nav-button {
+    transform: translateX(250px);
+}
+
+.drawer-open nav {
+    transform: translateX(0);
 }
