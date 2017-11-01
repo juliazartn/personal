@@ -6,6 +6,7 @@ body {
 .head-bio, .contact {
     font-family: 'Istok Web';    
 }
+
 h1, .icon-links {
     font-family: "Futura-PT", sans-serif;    
     text-transform: uppercase;
@@ -20,8 +21,10 @@ h1 {
 }
 
 .jumbotron {
-    background-color: #e5cc8f; /* gold */
-    
+    /*background-color: #e5cc8f; /* gold */
+    background-position: center center;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.5), rgba(0,0,0,0)), url(../img/seattle-skyline.jpg);
+    background-size: cover;
 }
 
 h4, .jumbotron, .icon-button, .transition{
@@ -32,7 +35,7 @@ h4, .jumbotron, .icon-button, .transition{
     padding: 0;
 }
 
-header h1 {
+header, header a {
     color: white; 
 }
 
@@ -138,11 +141,12 @@ nav {
     width: 250px;
     height: 100vh; /* viewport height */
     transform: translateX(-250px);
+    text-transform: uppercase;
 }
 
 nav li {
     list-style-type: none;
-    border-bottom: 1px solid grey;  
+    border-bottom: 1px solid white;  
 }
 
 nav ul {
@@ -152,7 +156,7 @@ nav ul {
 nav a {
     letter-spacing: 2px;
     display: block;
-    padding: 8px 16px;
+    padding: 16px;
     color: white;        
 }
 
