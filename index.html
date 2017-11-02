@@ -85,7 +85,7 @@
                 <h4>University of Washington '19</h4>
             </div>
             <div class="contact">
-                <a href="mailto: julia.zaratan@gmail.com">Email</a>
+                <a href="mailto: julia.zaratan@gmail.com">julia.zaratan@gmail.com</a>
                 |
                 <a href="https://www.linkedin.com/in/julia-zaratan-428023114/">LinkedIn</a>
             </div>
@@ -179,62 +179,8 @@
             <div class="container">
                 <h4>Projects</h4>
                 <hr>
-                <div class="row card-deck">
-                    <div class="project col-md-6 col-lg-4 py-3">
-                        <div class="card">
-                            <a href="https://katiebre.shinyapps.io/info-201-git-R-done/">
-                                <div class="card-img-box">
-                                    <img class="card-img-top" src="img/yelp-screenshot.png">
-                                </div>
-                            </a>
-                            <div class="card-body">
-                                <a href="https://katiebre.shinyapps.io/info-201-git-R-done/">
-                                    <h5>U.S. Restaurant Diversity </h5>
-                                </a>
-                                <p>Group project using the Yelp API and Data Wrangling to answer questions about restaurant
-                                    diversity in the U.S.</p>
-                                <p class="skills">Skills Used: R, Data Wrangling (dplyr), R Markdown, Basic Data Visualization (ggplot, plotly)</p>
-                                Additional Links:
-                                <strong>
-                                    <a href="https://github.com/yhejazi/info-201-git-R-done">GitHub</a>
-                                </strong>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project col-md-6 col-lg-4 py-3">
-                        <div class="card">
-                            <a href="projects/tiles.html">
-                                <div class="card-img-box">
-                                    <img class="card-img-top" src="img/tile-screenshot.png">
-                            </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="projects/tiles.html">
-                                    <h5>Tile Game</h5>
-                                </a>
-                                <p>Recreated the classic 15 tiles game with Javascript.</p>
-                                <p class="skills">Skills used: HTML, CSS, Javascript</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project col-md-6 col-lg-4 py-3">
-                        <div class="card">
-                            <a href="https://issuu.com/juliazartn/docs/info_102-_takeaway_journal">
-                                <div class="card-img-box">
-                                    <img class="card-img-top" src="img/magazine-screenshot.png">
-                            </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="https://issuu.com/juliazartn/docs/info_102-_takeaway_journal">
-                                    <h5>Women In Tech Final Project</h5>
-                                </a>
-                                <p>Choose to make a 'magazine' from scratch as medium to compile takeaways from class.</p>
-                                <p class="skills">Skills used: Basic design, writing, personal insights</p>
-                            </div>
-                        </div>
-                    </div>
+                <div id = "card-row" class="row card-deck">
+                   <!-- insert project cards here -->
                 </div>
             </div>
 
@@ -252,11 +198,8 @@
         <p class="footer-note">**In progress**</p>
     </footer>
 
-    <script>
-        document.querySelector(".nav-button").addEventListener("click", function () {
-            document.body.classList.toggle("drawer-open");
-        })
-    </script>
+    <script src="js/projects.js"></script>    
+    <script src="js/index.js"></script>
 </body>
 
 </html>
