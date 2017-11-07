@@ -22,9 +22,10 @@ h1 {
 
 .jumbotron {
     /*background-color: #e5cc8f; /* gold */
-    background-position: center center;
     background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.5), rgba(0,0,0,0)), url(../img/seattle-skyline.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
 }
 
 h4, .jumbotron, .icon-button, .transition{
