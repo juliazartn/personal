@@ -26,7 +26,7 @@ const PROJECTS = [
         name: "Tile Game",
         shortdesc: "Recreated the classic 15 tiles game with Javascript",
         skills: "HTML, CSS, Javascript",
-        url: "../projects/tiles.html",
+        url: "projects/tiles.html",
         img: "img/tile-screenshot.png"
     }
     , 
