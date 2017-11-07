@@ -1,5 +1,12 @@
 const PROJECTS = [
     {
+        name: "Movie Database",
+        shortdesc: "Using The Movie DB API, I made an interactive page where users can view, filter, and search through movies.",
+        skills: "fetch, handleResponse, DOM, Javascript, HTML, CSS",
+        url: "https://info343d-a17.github.io/challenges-juliazartn/moviebrowser/",
+        img: "img/movie.png"
+    },
+    {
         name: "Memory Tiles Game",
         shortdesc: "Recreated memory game using Javascript and handling events.",
         skills: "Javascript, DOM, HTML, CSS",
