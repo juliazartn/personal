@@ -42,12 +42,20 @@ header, header a {
 
 .icon-button {
     margin: 0 auto;
-    color: #1cb3a3;
+    color: #3b415c;
     letter-spacing: 2px;
 }
 
+.icon-links a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #aaaaaa;
+}
+
 .icon-button:hover {
-    color: #0e5a51;
+    color: #bb7d72;
 }
 
 
