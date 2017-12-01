@@ -1,5 +1,12 @@
 const PROJECTS = [
     {
+        name: "Chat Application",
+        shortdesc: "Made a basic version of a 'slack' application in which users can sign up/sign in and chat on various channels.",
+        skills: "React, Firebase, Javascript, CSS, HTML",
+        url: "https://info343d-a17.github.io/challenges-juliazartn/chat/build/",
+        img: "img/slack.png"
+    },
+    {
         name: "Movie Database",
         shortdesc: "Using The Movie DB API, I made an interactive page where users can view, filter, and search through movies.",
         skills: "fetch, handleResponse, DOM, Javascript, HTML, CSS",
