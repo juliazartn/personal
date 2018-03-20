@@ -1,5 +1,12 @@
 const PROJECTS = [
     {
+        name: "EATS iOS App (YelpTinder)",
+        shortdesc: "Collaborated to create an iOS app to help users decide where to eat by swiping through options using the YelpAPI.",
+        skills: "Swift, UI Design, GitHub",
+        url: "https://github.com/ryukiri/teamJABA",
+        img: "img/eats-screenshot.png"
+    },
+    {
         name: "Chat Application",
         shortdesc: "Made a basic version of a 'slack' application in which users can sign up/sign in and chat on various channels.",
         skills: "React, Firebase, Javascript, CSS, HTML",
